@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox id="" prefHeight="180.0" prefWidth="450.0" styleClass="keyboard" stylesheets="@../model/css/style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="parentiza.SecondaryController">
+   <children>
+      <HBox prefHeight="35.0" prefWidth="450.0">
+         <children>
+            <Button fx:id="btnQ" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" styleClass="keyboard__key" text="q">
+               <HBox.margin>
+                  <Insets left="2.0" />
+               </HBox.margin></Button>
+            <Button fx:id="btnW" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" styleClass="keyboard__key" text="w">
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="btnE" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" styleClass="keyboard__key" text="e">
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="btnR" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" styleClass="keyboard__key" text="r">
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="btnT" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" styleClass="keyboard__key" text="t">
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="btnY" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" styleClass="keyboard__key" text="y">
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="btnU" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" styleClass="keyboard__key" text="u">
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="btnI" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" styleClass="keyboard__key" text="i">
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="btnO" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" styleClass="keyboard__key" text="o">
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="btnP" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" styleClass="keyboard__key" text="p">
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <HBox layoutX="10.0" layoutY="15.0" prefHeight="35.0" prefWidth="450.0">
+         <children>
+            <Button fx:id="btnA" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" styleClass="keyboard__key" text="a">
+               <HBox.margin>
+                  <Insets left="25.0" />
+               </HBox.margin></Button>
+            <Button fx:id="btnS" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" styleClass="keyboard__key" text="s">
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="btnD" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" styleClass="keyboard__key" text="d">
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="btnF" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" styleClass="keyboard__key" text="f">
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="btnG" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" styleClass="keyboard__key" text="g">
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="btnH" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" styleClass="keyboard__key" text="h">
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="btnJ" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" styleClass="keyboard__key" text="j">
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="btnK" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" styleClass="keyboard__key" text="k">
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="btnL" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" styleClass="keyboard__key" text="l">
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <HBox layoutX="10.0" layoutY="50.0" prefHeight="35.0" prefWidth="450.0">
+         <children>
+            <Button fx:id="btnZ" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" styleClass="keyboard__key" text="z">
+               <HBox.margin>
+                  <Insets left="45.0" />
+               </HBox.margin></Button>
+            <Button fx:id="btnX" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" styleClass="keyboard__key" text="x">
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="btnC" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" styleClass="keyboard__key" text="c">
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin>
+            </Button> <Button fx:id="btnV" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" styleClass="keyboard__key" text="v">
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="btnB" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" styleClass="keyboard__key" text="b">
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="btnN" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" styleClass="keyboard__key" text="n">
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="btnM" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" styleClass="keyboard__key" text="m">
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin>
+            </Button>
+             <Button fx:id="btnMai" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" styleClass="keyboard__key" text="a/A">
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <HBox layoutX="10.0" layoutY="85.0" prefHeight="35.0" prefWidth="450.0">
+         <children>
+            <Button fx:id="btnNot" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" styleClass="keyboard__key" text="¬">
+               <HBox.margin>
+                  <Insets left="70.0" />
+               </HBox.margin></Button>
+            <Button fx:id="btnAnd" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" styleClass="keyboard__key" text="∧">
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="btnOr" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" styleClass="keyboard__key" text="∨">
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="btnImp" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" styleClass="keyboard__key" text="→">
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="btnAp" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" styleClass="keyboard__key" text="(">
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="btnFp" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" styleClass="keyboard__key" text=")">
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="btnAc" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" styleClass="keyboard__key" text="AC">
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <HBox layoutX="10.0" layoutY="15.0" prefHeight="35.0" prefWidth="450.0">
+         <children>
+            <Button fx:id="btnTec" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" text="≡">
+               <HBox.margin>
+                  <Insets left="45.0" />
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="fecha" />
+                  <String fx:value="keyboard__key" />
+               </styleClass>
+            </Button>
+            <Button fx:id="btnEsp" maxWidth="265.0" minWidth="265.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="265.0" styleClass="keyboard__key" text=" ">
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="btnRes1" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" styleClass="keyboard__key" text="Res">
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>
